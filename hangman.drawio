@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-09-09T11:15:04.241Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/116.0" version="21.7.4" etag="8pncf1PgfATeLhlJrdUX" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-09T11:25:06.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/116.0" etag="IgMKOrokywdP2J5mZo_h" version="21.7.4" type="github">
   <diagram name="Page-1" id="5H7ZmO1fpypQiVVQl2T4">
-    <mxGraphModel>
+    <mxGraphModel dx="1061" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="usdSpLGELuZKo4KtqsCg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.4999999999998" y="180" as="targetPoint" />
+            <mxPoint x="425" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usdSpLGELuZKo4KtqsCg-8" value="&lt;b&gt;Start game&lt;br&gt;&lt;/b&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usdSpLGELuZKo4KtqsCg-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usdSpLGELuZKo4KtqsCg-9" target="usdSpLGELuZKo4KtqsCg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usdSpLGELuZKo4KtqsCg-9" value="Program selects a word from words DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usdSpLGELuZKo4KtqsCg-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usdSpLGELuZKo4KtqsCg-10" target="usdSpLGELuZKo4KtqsCg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usdSpLGELuZKo4KtqsCg-10" value="&lt;div&gt;Program outputs the char number as &#39;_&#39; symbols.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usdSpLGELuZKo4KtqsCg-12" value="&lt;div&gt;Program prompts player to input a letter&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
